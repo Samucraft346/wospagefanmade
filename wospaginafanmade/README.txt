@@ -1,1 +1,0 @@
-para verlo es su totalidad se recomiendo presionar F12, luego presionar Ctrl+Shift+M y poner las demensiones de 1700 x 588.
