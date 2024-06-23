@@ -1,0 +1,307 @@
+/*Esencial*/
+body{
+    background-color: rgb(32,32,32);
+    margin: 0px;
+    overflow-x: hidden;
+}
+h1{
+    color: white;
+    font-size: 60px;
+}
+h2{
+    color: white;
+    font-size: 10px;
+}
+h3{
+    margin-left: 2%;
+    color: white;
+}
+p{
+    color: white;
+}
+*{
+    cursor: default;
+    font-family: 'Unbounded', cursive;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/*Cabecera*/
+.titulo{
+    color: white;
+    margin-top: 20px;
+    margin-left: 17%;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+/*Nav*/
+#Izquierda{
+    position: fixed;
+        float: left;
+        top: -20px;
+        left: -2px;
+    height: 150%;
+    width: 300px;
+    border: 3px solid #555;
+    background: black;
+}
+.enlacesnav{
+    display: block;
+    position: relative;
+        top: 40px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+.enlacesnavSin{
+    display: block;
+    position: relative;
+    top: 40px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.enlacesnav:hover, .enlacesnavSin:hover{
+    background-color: white;
+    color: black;
+    mso-border-between: 20px;
+    border-radius: 10px;
+    transition: background-color 0.1s linear 0.1s;
+}
+/*Cuerpo*/
+.titulo{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.portada{
+    margin-left: 17%;
+    width: 100%;
+}
+#event-list{
+    margin-left: 17%;
+    padding: 50px;
+    margin-bottom: 150px;
+}
+    /*eventoinfo*/
+    .eventoinfogeneral{
+        display: inline-block;
+        width: 90%;
+    }
+    .eventinfo{
+        display: inline-block;
+        margin-left: 300px;
+    }
+    .eventdate{
+        display: inline-block;
+        margin: 0 10px;
+        vertical-align: middle;
+        padding: 10px;
+        color: red;
+        font-size: 40px;
+        margin-right: 30px;
+    }
+    .eventnamegeneral{
+        display: inline-block;
+        margin: 0 10px;
+        vertical-align: middle;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        margin-right: 160px;
+    }
+    #eventname1{
+        margin-bottom: -5PX;
+    }
+    #modal, #modal2, #modal3, #modal4, #modal5{
+        background-color: #888888;
+        border-color: transparent;
+        border-radius: 15px;
+    }
+    .btn-abrir-modal, .btn-abrir-modal2, .btn-abrir-modal3, .btn-abrir-modal4, .btn-abrir-modal5{
+        display: inline-block;
+        margin: 0 10px;
+        vertical-align: middle;
+        padding: 10px;
+        background-color: red;
+        font-size: 20px;
+        position: relative;
+            float: right;
+            top: 9px;
+    }
+    .modalimages{
+        display: inline-block;
+        width: 600px;
+        height: 600px;
+    }
+    .btn-sinentradas-modal{
+        background-color: red;
+        border: transparent;
+        color: white;
+        margin: 0 120px;
+        padding: 5px;
+        border-radius: 15px;
+    }
+    .modalbutton{
+        margin-top: 10px;
+    }
+    .btn-cerrar-modal, .btn-cerrar-modal2, .btn-cerrar-modal3, .btn-cerrar-modal4, .btn-cerrar-modal5{
+        display: inline-block;
+        border-radius: 5px;
+        background-color: #f1f1f1;
+        border-color: transparent;
+        position: relative;
+            float: left;
+    }
+    .btn-comprar-modal{
+        display: inline-block;
+        border-radius: 5px;
+        background-color: #f1f1f1;
+        border-color: transparent;
+        position: relative;
+            float: right;
+    }
+/*Footers*/
+.footer{
+    width: 84.5%;
+    height: auto;
+    background-color: #555555;
+    margin-left: 15%;
+    margin-top: -1%;
+}
+.wrapper ul{
+    list-style: none;
+}
+.wrapper ul li{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid white;
+    float: left;
+    transition: all 0.5s ease;
+}
+.wrapper ul li:hover{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid red;
+    float: left;
+    transition: all 0.5s ease;
+}
+.wrapper ul li .fa{
+    color: white;
+    margin-top: 5px;
+    transition: all 0.5s ease;
+}
+.wrapper ul li:hover .fa{
+    color: red;
+    margin-top: 5px;
+    transition: all 0.5s ease;
+}
+.rowFooter{
+    position: relative;
+    left: 20px;
+}
+.footercontent1{
+    display: inline-block;
+    margin: 0px auto;
+    padding: 10px;
+}
+.footercontent{
+    display: inline-block;
+    margin: 0px auto;
+    padding: 10px;
+    color: white;
+}
+#paginasoficiales{
+    display: inline-block;
+}
+#otraspaginas{
+    display: inline-block;
+}
+#contactar{
+    display: inline-block;
+    position: relative;
+    top: -20px;
+}
+#redessociales{
+    display: inline-block;
+    position: relative;
+    top: -250px;
+    right: -70%;
+}
+#redessociales h4{
+    position: relative;
+    left: 80px;
+}
+.imagenesredessociales{
+    width: 60px;
+}
+.footercontent h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footercontent h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footercontent ul li{
+    list-style: none;
+    position: relative;
+    left: -38px;
+}
+.enlaces:link{
+    color:  #bbbbbb;
+}
+.enlaces{
+    color:  #bbbbbb;
+    text-decoration: none;
+}
+.enlaces:hover{
+    position: relative;
+    left: 20px;
+}
+.redessociales{
+    text-decoration: none;
+}
+
+
+
